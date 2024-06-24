@@ -5,7 +5,7 @@
 {% assign url_parts = canonical_url | split: '/' %}
 {% assign last_part = url_parts | last %}
 
-<marmeto-component-account-page-tags class="page-width">
+<marmeto-component-account-page-tabs class="page-width">
   <div class="account-page-tabs">
     <a href="/account">
       <div class="account-page-tabs__account-wrapper account-page-tab {% if last_part == 'account' %} active {% endif %}">
@@ -125,4 +125,4 @@
       </div>
     </a>
   </div>
-</marmeto-component-account-page-tags>
+</marmeto-component-account-page-tabs>
