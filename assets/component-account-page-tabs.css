@@ -20,7 +20,7 @@ p{
 .center {
   text-align: center;
 }
-.account-page-tab {
+.marmeto-account-page-tab {
   background: #895e59;
   color: white;
   border-left: 8px solid #bc9891;
@@ -32,14 +32,14 @@ p{
   border-radius: 4px;
   margin-bottom: 10px;
 }
-.account-page-tabs__title {
+.marmeto-account-page-tabs__title {
   padding-left: 15px;
   font-size: calc(14px + (16 - 14) * (100vw - 375px) / (1440 - 375));
   font-weight: bold;
 }
-.account-page-tabs a {
+.marmeto-account-page-tabs a {
   text-decoration: none;
 }
-.account-page-tabs svg path {
+.marmeto-account-page-tabs svg path {
   fill: white;
 }
